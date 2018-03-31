@@ -3,7 +3,7 @@
 
 # Controle de Gastos 
 
-Aplicação Controle de Gastos desenvolvida com Ionic3
+Aplicação Controle de Gastos desenvolvida com Ionic 3
 
 ## Ionic Info : 
 
