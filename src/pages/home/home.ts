@@ -8,7 +8,7 @@ import { ApiProvider } from '../../providers/api/api';
 })
 export class HomePage {
   data: any;
-  users: any[];
+  users: any;
   constructor(public navCtrl: NavController, public apiService: ApiProvider) {}
 
   ionViewDidLoad(){
@@ -17,5 +17,4 @@ export class HomePage {
       this.users = this.data.data;
     });
   }
-
 }

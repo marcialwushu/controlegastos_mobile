@@ -7,11 +7,15 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
+  <form (ngSubmit)="logForm()">
     <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
+      <ion-label>Nome</ion-label>
+      <ion-input type="text" name="nome"></ion-input>
     </ion-item>
-  </ion-list>
+    <ion-item>
+      <ion-label>Idade</ion-label>
+      <ion-input type="number" name="idade"></ion-input>
+    </ion-item>
+    <button ion-button type="submit" block>Salvar</button>
+  </form>
 </ion-content>
