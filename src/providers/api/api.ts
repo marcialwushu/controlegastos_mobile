@@ -26,4 +26,14 @@ export class ApiProvider {
     });
   }
 
+  getUserId(){
+    return new Promise(resolve => {
+      this.http.get(this.apiUrl+'/api/users/id').subscribe(data => {
+        resolve(data);
+      }, err => {
+        console.log(err);
+      });
+    });
+  }
+
 }
