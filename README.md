@@ -5,7 +5,7 @@
 
 Aplicação Controle de Gastos desenvolvida com Ionic3
 
-Ionic Info : 
+## Ionic Info : 
 
 ```
 cli packages: (C:\Users\cleilson\AppData\Roaming\npm\node_modules)
@@ -39,8 +39,12 @@ Misc:
     backend : pro
     
 ``` 
+# Pacotes utilizado 
 
-## Inistall
+- angularfire2
+- firebase
+
+## Install
 
 ```
 npm install firebase angularfire2 --save
